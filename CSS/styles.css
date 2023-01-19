@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    text-align: center;
+    padding: 15% 0 15% 0;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+p {
+    font-size: 15px;
+    font-style: thin;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.grid-container {
+    display: grid; 
+    width: 200px;
+    place-content: center;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    padding: 1%;
+    text-align: left;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position:relative;
+}
+
+.icon-image {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width:100%;
+}
+
+.avatar {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    padding-top: 10%;
+}
+
+.clock {
+    margin-left: 40px;
+}
+
+.item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image {
+    display: inline;
+    padding: 0 5% 0 5%;
+    margin-bottom: 100px;
+}
+
+h1:active {
+    color: hsl(178, 100%, 50%);
+ 
+}
+.name {
+    color: white;
+}
+.name:active {
+    color: hsl(178, 100%, 50%);
+    /* cursor: pointer; */
+}
+.overlay
+{
+    position: absolute; 
+    opacity:0;
+    background:hsl(178, 100%, 50%,0.5);
+    width:202px;
+    height:202px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  place-content: center;
+  align-items: center;
+    display:flex;
+    bottom:190px;
+    
+}
+
+.item-1:active .overlay{
+    opacity:1;
+}
+.item-1:hover{
+    cursor: pointer;
+}
+h1:hover{
+    cursor: pointer;
+}
+.name:hover{
+    cursor: pointer;
+}
+/* .icon-view
+{
+height:50px;
+} */
+@media screen and (max-width:500px)
+{
+.overlay{
+    position: absolute; 
+    opacity:0;
+    background:hsl(178, 100%, 50%,0.5);
+    width:202px;
+    height:202px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  place-content: center;
+  align-items: center;
+    display:flex;
+    bottom:158px;
+}
+}
+    
